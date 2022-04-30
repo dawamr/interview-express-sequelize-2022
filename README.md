@@ -59,5 +59,6 @@ Jalankan servernya, bisa dengan menggunakan `npm` atau `yarn` :
 ```
 npm run start or yarn start
 ```
-Dokumtasi dan sample ada disini
-`URL` : `./documentation.md`
+Dokumtasi dan sample ada disini:
+
+`URL` : [Documentation](./documentation.md)
