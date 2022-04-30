@@ -59,3 +59,5 @@ Jalankan servernya, bisa dengan menggunakan `npm` atau `yarn` :
 ```
 npm run start or yarn start
 ```
+Dokumtasi dan sample ada disini
+`URL` : `https://documenter.getpostman.com/view/18078111/UyrGBZTo`
