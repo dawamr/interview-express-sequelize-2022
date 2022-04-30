@@ -33,7 +33,7 @@ module.exports = {
     },
 
     list(req, res, next) {
-        let orderBy = 'created_at';
+        let orderBy = 'name';
         let sortBy = 'desc';
         let page = 1;
         let perPage = 10;
