@@ -38,6 +38,11 @@ Install semua dependencies yang dibutuhkan menggunakan `npm` atau bisa juga deng
 ```
 npm install or yarn install
 ```
+Salin `.env.example` menjadi `.env` lalu gunakan konfigurasi disini
+```
+NODE_ENV = development
+PORT = 4002
+```
 Membuat database dan tabel dalam mode `development` :
 ```
 npm run db:start
@@ -49,11 +54,6 @@ npm run db:test:start
 Menjalankan test :
 ```
 npm run test
-```
-Salin `.env.example` menjadi `.env` lalu gunakan konfigurasi disini
-```
-NODE_ENV = development
-PORT = 4002
 ```
 Jalankan servernya, bisa dengan menggunakan `npm` atau `yarn` :
 ```
