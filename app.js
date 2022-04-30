@@ -5,7 +5,7 @@ const cors = require("cors");
 const fs = require('fs')
 const logger = require('morgan');
 const path = require('path')
-const config = require('./config/config');
+const config = require('./config/setting');
 
 var corsOptions = {
     origin: "http://localhost:4001"
@@ -30,3 +30,5 @@ app.use(routers);
 app.listen(config.port, function(){
     console.log(`Server is running on port ${config.port}`);
 })
+
+module.exports = app;
