@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "root",
+    "database": "test-interview-express",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
