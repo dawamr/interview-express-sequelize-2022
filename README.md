@@ -31,3 +31,31 @@ The **backend** side will manage `product`, with REST over HTTP API request:
 7. Endpoint of logging activity, unit testing, and `Swagger` API docs are optional✅
 8. Write clean and effective code for example: proper project structure, exception handling, parameterize config, etc.✅
 9. Push your work to your **GitHub** repository, make sure your repository accessible to public.✅
+
+# Instalation
+
+Install semua dependencies yang dibutuhkan menggunakan `npm` atau bisa juga dengan menggunakan `yarn` :
+```
+npm install or yarn install
+```
+Membuat database dan tabel dalam mode `development` :
+```
+npm run db:start
+```
+Membuat database dan tabel dalam mode `testing` :
+```
+npm run db:test:start
+```
+Menjalankan test :
+```
+npm run test
+```
+Salin `.env.example` menjadi `.env` lalu gunakan konfigurasi disini
+```
+NODE_ENV = development
+PORT = 4002
+```
+Jalankan servernya, bisa dengan menggunakan `npm` atau `yarn` :
+```
+npm run start or yarn start
+```
