@@ -2,7 +2,9 @@ const express = require("express");
 const app = express();
 
 const cors = require("cors");
+const fs = require('fs')
 const logger = require('morgan');
+const path = require('path')
 const config = require('./config/config');
 
 var corsOptions = {
@@ -10,6 +12,10 @@ var corsOptions = {
 };
 
 app.use(logger('dev'));
+
+app.use(logger('common', {
+    stream: fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
+}))
 
 app.use(cors(corsOptions));
 
