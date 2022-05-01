@@ -4,7 +4,7 @@ const app = require('../app');
 const helpers = require('./helper');
 
 
-describe('User API Endpoint Tests', () => { 
+describe('Product API Endpoint Tests', () => { 
     it('GET /product', async () => {
         const response = await request(app)
         .get('/product');
